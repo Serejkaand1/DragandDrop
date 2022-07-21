@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="null.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Актуальное</h1>
+        <div class="header__scroll">
+            <div class="scroll">
+                <span class="scroll__active first__scroll"></span>
+                <span class="second__scroll"></span>
+                <span class="three__scroll"></span>
+                <span class="four__scroll"></span>
+                <span class="five__scroll"></span>
+            </div>
+            <button class="preview" onclick="previewSlider()"> <img src="./img/Vector 2.png" alt=""></button>
+            <button class="next" onclick="nextSlider()"> <img src="./img/Vector 1.png" alt=""></button>
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="main__slider first" draggable="true">
+            <div class="first__drag drag">
+                <img src="./img/Фото.png" alt="">
+                <span>10.11.2020 г.</span>
+                <h4>Ким и Валерия Брейтбурги написали книгу про искусство</h4>
+                <p>Работа над книгой велась более пяти лет, и действенные методики,
+                    описанные в ней, созданные в результате
+                    анализа и синтеза идей…</p>
+            </div>
+        </div>
+        <div class="main__slider second" draggable="true">
+            <div class="second__drag drag">
+                <img src="./img/Фото.png" alt="">
+                <span>10.11.2020 г.</span>
+                <h4>Юрий Колокольников пытается спасти Землю в клипе «Космические силы»</h4>
+                <p>Премьера клипа «Космические силы» группы «Мумий Тролль» состоялась 6 ноября 2020 года.</p>
+            </div>
+        </div>
+        <div class="main__slider three" draggable="true">
+            <div class="three__drag drag">
+                <img src="./img/Фото.png" alt="">
+                <span>10.11.2020 г.</span>
+                <h4>BTS получили четыре награды MTV EMA</h4>
+                <p>BTS получили четыре награды MTV EMA
+                    27-я ежегодная церемония награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.</p>
+            </div>
+        </div>
+        <div class="main__slider four" draggable="true">
+            <div class="four__drag">
+                <img src="./img/Фото.png" alt="">
+                <span>10.11.2020 г.</span>
+                <h4>Открытие сезона «Ла Скала» отменено</h4>
+                <p>Миланский театр La Scala отменил открытие сезона. Первый спектакль был назначен на 7 декабря — «Лючия
+                    ди
+                    Ламмермур».</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

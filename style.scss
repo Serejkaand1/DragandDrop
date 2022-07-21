@@ -1,0 +1,180 @@
+.header {
+    width: 100%;
+    height: 60px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 120px 0;
+    flex-wrap: wrap;
+
+    h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: #527CCD;
+    }
+}
+
+
+.header__scroll {
+    display: flex;
+    max-width: 560px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    button {
+        width: 60px;
+        height: 60px;
+        padding: 20px 25px;
+        border: 1px solid #CCDDFF;
+        background-color: white;
+    }
+
+
+    a {
+        width: 60px;
+        height: 60px;
+        padding: 20px 25px;
+        border: 1px solid #CCDDFF;
+    }
+}
+
+
+.scroll {
+    max-width: 360px;
+    width: 100%;
+    height: 5px;
+    background-color: #CCDDFF;
+    display: flex;
+    margin: auto 0;
+
+    .scroll__active {
+        background-color: #527CCD;
+        order: 0;
+    }
+
+    span {
+        display: block;
+        width: 90px;
+        height: 5px;
+        background-color: #CCDDFF;
+    }
+}
+
+
+
+
+
+.main {
+    margin: 0 140px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+
+.main__slider {
+    width: 260px;
+    position: relative;
+    border: 1px solid #527CCD;
+    cursor: all-scroll;
+
+
+
+
+    img {
+        margin: 20px 20px 10px 20px;
+    }
+
+    span {
+        display: inline-block;
+        margin: 10px 168px 10px 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #527CCD;
+        opacity: 0.6;
+    }
+
+
+    h4 {
+        margin: 10px 20px;
+        top: 222px;
+        left: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #527CCD;
+    }
+
+
+    p {
+        margin: 10px 20px 22px 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #527CCD;
+    }
+
+}
+
+
+.first {
+    order: 0;
+}
+
+.second {
+    order: 1;
+}
+
+.three {
+    order: 2;
+}
+
+.four {
+    order: 3;
+}
+
+
+.five {
+    order: 4;
+}
+
+
+.second__scroll {
+    order: 0;
+}
+
+
+.three__scroll {
+    order: 1;
+}
+
+.four__scroll {
+    order: 2;
+}
+
+.five__scroll {
+    order: 3;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.hovered {
+    background-color: #527bcd18;
+}
