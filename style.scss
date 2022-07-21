@@ -4,12 +4,11 @@ body {
 }
 
 .header {
-    width: 100%;
+    width: 1160px;
     height: 60px;
-    padding: 0 10%;
     display: flex;
     justify-content: space-between;
-    margin: 120px 0 40px 0;
+    margin: 120px auto 40px auto;
     flex-wrap: wrap;
 
     h1 {
@@ -82,7 +81,7 @@ body {
 .main {
     margin: 0 140px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
