@@ -1,10 +1,10 @@
 body {
-    width: 1440px;
+    max-width: 1440px;
     height: 800px;
 }
 
 .header {
-    width: 1160px;
+    max-width: 1160px;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -187,4 +187,32 @@ body {
 
 .hovered {
     background-color: #527bcd18;
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .header {
+        margin: 120px auto 70px auto;
+        justify-content: center;
+    }
+
+    .main {
+        margin: 0;
+    }
+
+    .main__slider {
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .header__scroll {
+        max-width: 352px;
+    }
 }
